@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="output\Project1.exe"/>
+    <OBJFILES value="temp\Project1.obj temp\Unit1.obj temp\json_reader.obj temp\json_value.obj 
+      temp\json_writer.obj"/>
+    <RESFILES value="Project1.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) Unit1.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="dclusr.lib nmfast.lib bcbsmp.lib adortl.lib DirectX9_BCB6.lib 
+      DSPack_BCB6.lib bdertl.lib qrpt.lib TntLibR.lib vclx.lib dbrtl.lib 
+      vcldb.lib SUIPackC6.lib Indy60.lib rtl.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib Indy60.lib SUIPackC6.lib vcldb.lib dbrtl.lib vclx.lib 
+      TntLibR.lib qrpt.lib bdertl.lib DSPack_BCB6.lib DirectX9_BCB6.lib 
+      adortl.lib bcbsmp.lib nmfast.lib dclusr.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi adortl.bpi dclusr.bpi DirectX9_BCB6.bpi DSPack_BCB6.bpi 
+      SUIPackC6.bpi TntLibR.bpi TntLibD.bpi vclx.bpi dbrtl.bpi vcldb.bpi 
+      bdertl.bpi TeeDB8C6.bpi Tee8C6.bpi TeeUI8C6.bpi TeeLanguage8C6.bpi 
+      TeePro8C6.bpi TeeWorld8C6.bpi TeeGL8C6.bpi qrpt.bpi TeeQR8C6.bpi 
+      TeeImage8C6.bpi"/>
+    <PATHCPP value=".;Json"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="Project1.cpp"/>
+    <INCLUDEPATH value="Json;&quot;C:\Program Files\Borland\CBuilder6\Bin&quot;;F:\0WSC-2100_test\json_test;src;$(BCB)\Projects\Bpl;$(BCB)\Imports;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Source\DSPack234;$(BCB)\Source\Indy9;$(BCB)\Source\SUIPack;$(BCB)\Source\Tnt"/>
+    <LIBPATH value="Json;&quot;C:\Program Files\Borland\CBuilder6\Bin&quot;;&quot;F:\0WSC-2100_test\json_test&quot;;lib;$(BCB)\Projects\Lib;$(BCB)\Imports;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Source\DSPack234;$(BCB)\Source\Indy9;$(BCB)\Source\SUIPack;$(BCB)\Source\Tnt"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-IJson -I&quot;C:\Program Files\Borland\CBuilder6\Bin&quot; 
+      -IF:\0WSC-2100_test\json_test -Isrc -I$(BCB)\Projects\Bpl -I$(BCB)\Imports 
+      -I$(BCB)\include -I$(BCB)\include\vcl -I$(BCB)\Source\DSPack234 
+      -I$(BCB)\Source\Indy9 -I$(BCB)\Source\SUIPack -I$(BCB)\Source\Tnt 
+      -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -6 -b- -k -y -v -vi- 
+      -c -tW -tWM"/>
+    <PFLAGS value="-N2temp -N0temp -$Y+ -$X- -$W -$V- -$P- -$O- -$H- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="-Itemp -D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="Project1.res" FORMNAME="" UNITNAME="Project1.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Project1.cpp" FORMNAME="" UNITNAME="Project1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit1.cpp" FORMNAME="Form1" UNITNAME="Unit1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Json\json_reader.cpp" FORMNAME="" UNITNAME="json_reader.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Json\json_value.cpp" FORMNAME="" UNITNAME="json_value.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Json\json_writer.cpp" FORMNAME="" UNITNAME="json_writer.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=1
+MajorVer=2
+MinorVer=3
+Release=0
+Build=23
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1028
+CodePage=950
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=2.3.0.23
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=2.3
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=4
+Item0=src;$(BCB)\Projects\Bpl;$(BCB)\Imports;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Source\DSPack234;$(BCB)\Source\Indy9;$(BCB)\Source\SUIPack;$(BCB)\Source\Tnt
+Item1=..\WSC1200_Server;src;$(BCB)\Projects\Bpl;$(BCB)\Imports;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Source\DSPack234;$(BCB)\Source\Indy9;$(BCB)\Source\SUIPack;$(BCB)\Source\Tnt
+Item2=src;$(BCB)\Imports;$(BCB)\Projects\Bpl;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Source\DSPack234;$(BCB)\Source\Indy9;$(BCB)\Source\SUIPack;$(BCB)\Source\Tnt
+Item3=src;$(BCB)\Imports;C:\Program Files\Borland\CBuilder6\Projects\Bpl\Indy\C6;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=5
+Item0=lib;$(BCB)\Projects\Lib;$(BCB)\Imports;$(BCB)\lib;$(BCB)\lib\obj;$(BCB)\Source\DSPack234;$(BCB)\Source\Indy9;$(BCB)\Source\SUIPack;$(BCB)\Source\Tnt
+Item1=..\WSC1200_Server;src;lib;$(BCB)\Projects\Lib;$(BCB)\Imports;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Source\DSPack234;$(BCB)\Source\Indy9;$(BCB)\Source\SUIPack;$(BCB)\Source\Tnt
+Item2=src;lib;$(BCB)\Projects\Lib;$(BCB)\Imports;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Source\DSPack234;$(BCB)\Source\Indy9;$(BCB)\Source\SUIPack;$(BCB)\Source\Tnt
+Item3=src;$(BCB)\Imports;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Source\DSPack234;$(BCB)\Source\Indy9;$(BCB)\Source\SUIPack;$(BCB)\Source\Tnt
+Item4=src;$(BCB)\Imports;C:\Program Files\Borland\CBuilder6\Projects\Bpl\Indy\C6;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=2
+Item0=$(BCB)\source\vcl;$(BCB)\Source\DSPack234;$(BCB)\Source\Indy9;$(BCB)\Source\SUIPack;$(BCB)\Source\Tnt
+Item1=$(BCB)\source\vcl;C:\SUIPack\Source\
+
+[HistoryLists\hlConditionals]
+Count=3
+Item0=_DEBUG
+Item1=_DEBUG;_WINSOCKAPI_
+Item2=_DEBUG;_WINSOCK2API_
+
+[HistoryLists\hlIntOutputDir]
+Count=1
+Item0=temp
+
+[HistoryLists\hlFinalOutputDir]
+Count=2
+Item0=output\
+Item1=output
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl;$(BCB)\Source\DSPack234;$(BCB)\Source\Indy9;$(BCB)\Source\SUIPack;$(BCB)\Source\Tnt
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

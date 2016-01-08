@@ -1,0 +1,22 @@
+{
+	"address":"CN|\u5409\u6797|\u957f\u6625|None|CERNET|1|None",
+	"content":
+	{
+		"address":"\u5409\u6797\u7701\u957f\u6625\u5e02",
+		"address_detail":
+		{
+			"city":"\u957f\u6625\u5e02",
+			"city_code":53,
+			"district":"",
+			"province":"\u5409\u6797\u7701",
+			"street":"",
+			"street_number":""
+		},
+		"point":
+		{
+			"x":"125.31364243",
+			"y":"43.89833761"
+		}
+	},
+	"status":0
+}
